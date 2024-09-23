@@ -1,0 +1,9 @@
+services:
+  ml:
+    build:
+      context: .  
+      dockerfile: Dockerfile
+    # ports:
+      # - "8888:8888"
+    volumes:
+      - .:/code
